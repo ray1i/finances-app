@@ -286,3 +286,16 @@ function delete_item(section_name, name){
 
     section_item_element.remove();
 }
+
+function export_items(){
+    const box = document.getElementsByClassName('export-box')[0]
+
+    box.value = JSON.stringify(items)
+}
+
+function import_items(){
+    const box = document.getElementsByClassName('import-box')[0]
+
+    items = JSON.parse(box.value)
+    draw_sections();
+}
