@@ -190,11 +190,6 @@ function add_section(){
     document.getElementsByClassName('entry-input')[0].value = ''
 }
 
-// attempt to have the entry in the search bar add an additional entry - currently not functioning
-document.querySelector("entry").addEventListener("click", function() {
-    add_section(document.querySelector("entry-input").value);
-})
-
 function delete_section(name){
     // this function deletes a section given the name of the section
 
