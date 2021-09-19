@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(11, 33, 73);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section {
+    background-color: rgb(32, 40, 63);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;  
+    font-family: inherit;
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    background: #000000d0;
+    color: white;
+    padding: 0.75em;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    font-size: 100%;
+}
+.item:hover{
+    background: #00000069;
+}
+.item-name{
+    margin: 0.75em;
+}
+
+
+.entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* made some css and style changes - Victor */
